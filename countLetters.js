@@ -4,7 +4,7 @@ function countLetters(input) {
     return noSpace;
   }
   var newString = reformatt(input);
-  var result = [];
+  var result = {};
   var letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
   for (var i = 0; i < newString.length; i++){
     for (var j = 0; j < letters.length; j ++){
